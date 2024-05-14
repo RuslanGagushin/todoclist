@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "todoclist"
+version = "0.4.0"
+description = ""
+authors = ["Ruslan Gagushin <gagushin2@gmail.com>"]
+readme = "README.md"
+packages = [{include = "todoclist"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+typer = "^0.12.3"
+todoist-api-python = "^2.1.4"
+rich = "^13.7.1"
+datetime = "^5.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+docli = "todoclist.scripts.todoclist:app"
