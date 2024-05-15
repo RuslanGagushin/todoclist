@@ -9,7 +9,7 @@ You can install app from pip repository: [todoclist](https://pypi.org/project/to
 Use pip installer:
 
 ```bash
-pip install todoclist
+pip install todoclist==0.5.0
 ```
 
 ## Basic commands
